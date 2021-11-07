@@ -1,0 +1,7 @@
+MinecraftLauncher.exe
+GDLauncher.exe
+javaw.exe
+r5apex.exe
+Discord.exe
+Lunar Client.exe
+Minecraft.exe
