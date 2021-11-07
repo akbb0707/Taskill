@@ -1,5 +1,11 @@
 import psutil
 import time
+import signal
+
+def handler(signum, frame):
+    print('What are you, mentally weak?')
+
+signal.signal(signal.SIGINT, handler)
 
 temp = open("blacklist.txt")
 programs = temp.read().splitlines()
